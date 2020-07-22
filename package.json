@@ -1,10 +1,10 @@
 {
-  "name": "run-on-change",
+  "name": "run-if-modified",
   "version": "1.0.0",
   "description": "Run when match files or last-modified is different.",
   "main": "index.js",
   "bin": {
-    "run-on-change": "./index.js"
+    "rim": "./index.js"
   },
   "scripts": {},
   "keywords": [
