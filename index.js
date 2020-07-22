@@ -14,7 +14,7 @@ const { spawn } = require('child_process')
 
 const program = new Command()
 program.version(version)
-    .name('run-on-change')
+    .name('rim')
     .option('-m, --minimatch <match>', 'Files scanned for changes', 'src/**/*.{tsx,ts,jsx,js,svg,html,css,scss,less}')
     .option('-s, --snapshot <file>', 'Snapshot files', '.run-on-diff.cache.json')
     .usage('-s \'.cache\' -m \'**/*.svg\' echo "hello world on change"')
