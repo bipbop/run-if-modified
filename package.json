@@ -1,0 +1,22 @@
+{
+  "name": "run-on-change",
+  "version": "1.0.0",
+  "description": "Run when match files or last-modified is different.",
+  "main": "index.js",
+  "bin": {
+    "run-on-change": "./index.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "last-modified",
+    "run",
+    "execute",
+    "build"
+  ],
+  "author": "lf.amorim@bipbop.com.br",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "glob": "^7.1.6"
+  }
+}
