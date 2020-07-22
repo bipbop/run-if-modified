@@ -1,6 +1,6 @@
 {
   "name": "run-if-modified",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run when match files or last-modified is different.",
   "main": "index.js",
   "bin": {

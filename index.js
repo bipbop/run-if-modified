@@ -9,7 +9,6 @@ const {
 
 const { Command } = require('commander')
 const { version } = require('./package.json')
-const { exec } = require('child_process')
 const { spawn } = require('child_process')
 
 
