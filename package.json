@@ -1,12 +1,14 @@
 {
   "name": "run-if-modified",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Run when match files or last-modified is different.",
   "main": "index.js",
   "bin": {
     "rim": "./index.js"
   },
-  "repository": {"url": ""},
+  "repository": {
+    "url": ""
+  },
   "scripts": {},
   "keywords": [
     "last-modified",
@@ -20,6 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^6.0.0",
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "type-fest": "^0.16.0"
   }
 }

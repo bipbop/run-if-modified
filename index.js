@@ -39,8 +39,6 @@ if (existsSync(program.snapshot)) {
     if (isEqual(oldSnapshot, snapshot)) return
 }
 
-writeFileSync(program.snapshot, JSON.stringify(snapshot))
-
 const arguments = [...program.args]
 const command = arguments.shift()
 if (!command) process.exit(0)
@@ -48,4 +46,7 @@ const child = spawn(command, arguments)
 process.stdin.pipe(child.stdin)
 child.stdout.pipe(process.stdout)
 child.stderr.pipe(process.stderr)
-child.on('exit', (e) => process.exit(e))
+child.on('exit', (e) => {
+    if (e === 0) writeFileSync(program.snapshot, JSON.stringify(snapshot))        
+    process.exit(e)
+})
