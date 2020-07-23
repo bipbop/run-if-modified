@@ -6,7 +6,7 @@ The idea for this project came up with the need to create a code build only if a
 
 ```
 $ rim -h
-Usage: rim -s '.cache' -m '**/*.svg' echo "hello world on change"
+Usage: rim -s '.cache' -m '**/*.svg' npm run build-svg
 
 Options:
   -V, --version            output the version number
@@ -17,4 +17,4 @@ Options:
 
 # License
 
-Read the license [MIT by clicking here] (LICENSE.md)
+Read the license [MIT by clicking here](LICENSE.md)
