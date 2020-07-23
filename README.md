@@ -17,4 +17,4 @@ Options:
 
 # License
 
-Read the license [MIT by clicking here] (LICENSE.md)
+Read the license [MIT by clicking here](LICENSE.md)
