@@ -22,7 +22,6 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^6.0.0",
-    "glob": "^7.1.6",
-    "type-fest": "^0.16.0"
+    "glob": "^7.1.6"
   }
 }
